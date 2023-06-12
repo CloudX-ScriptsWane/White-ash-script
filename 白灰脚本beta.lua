@@ -35,7 +35,7 @@ elseif game.PlaceId == 1318971886 then --Break in (Stay)
 	
 elseif game.PlaceId == 189707 then 
    
- loadstring(game:HttpGet("https://raw.githubusercontent.com/CloudX-ScriptsWane/ScriptsDache/main/3.lua", true))()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/CloudX-ScriptsWane/ScriptsDache/main/6.lua", true))()
 
 elseif game.PlaceId == 537413528 then
 
