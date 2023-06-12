@@ -43,7 +43,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/CloudX-ScriptsWane/Sc
 
 elseif game.PlaceId == 1318971886 then --力量传奇
 
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoYunCN/Xiao-Yun-UWU/main/%E5%8A%9B%E9%87%8F%E4%BC%A0%E5%A5%87%E6%9C%80%E5%BC%BA.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CloudX-ScriptsWane/ScriptsDache/main/5.lua"))()
 
 	
 else --白灰脚本
