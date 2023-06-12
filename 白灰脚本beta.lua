@@ -41,7 +41,7 @@ elseif game.PlaceId == 537413528 then
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CloudX-ScriptsWane/ScriptsDache/main/4.lua", true))()
 
-elseif game.PlaceId == 1318971886 then --力量传奇
+elseif game.PlaceId == 3623096087 then --力量传奇
 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CloudX-ScriptsWane/ScriptsDache/main/5.lua"))()
 
