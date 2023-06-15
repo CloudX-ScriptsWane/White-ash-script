@@ -5,7 +5,7 @@
 local CoreGui = game:GetService("StarterGui")
 
 CoreGui:SetCore("SendNotification", {
-    Title = "白灰脚本",
+    Title = "云",
     Text = "正在加载（反挂机已开启）",
     Duration = 3, 
 })
