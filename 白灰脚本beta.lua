@@ -73,3 +73,4 @@ game.Players.ChildRemoved:Connect(function(player)
       print ("Hello word")
     end
 end)
+notify('注意~', '作者小云',nil, 6)
