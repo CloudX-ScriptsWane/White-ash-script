@@ -35,7 +35,7 @@ elseif game.PlaceId == 155615604 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoYunCN/Xiao-Yun-UWU/main/%E7%9B%91%E6%8E%A7.lua",true))()
 	
 elseif game.PlaceId == 3956818381 then --忍者传奇
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoYunCN/Xiao-Yun-UWU/main/%E5%BF%8D%E8%80%85%E4%BC%A0%E5%A5%87.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CloudX-ScriptsWane/ScriptsDache/main/%E5%BF%8D%E8%80%85V1.5.lua"))()
 
 elseif game.PlaceId == 1318971886 then --Break in (Stay)
     loadstring(game:HttpGet("https://pastebin.com/raw/28Z4ExEn", true))()
