@@ -28,7 +28,7 @@ notify('反挂机', '反挂机已开启',nil, 4)
 --服务器
 if game.PlaceId == 3101667897 then --极速传奇
 
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoYunCN/Xiao-Yun-UWU/main/%E6%9E%81%E9%80%9F%E4%BC%A0%E5%A5%87.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CloudX-ScriptsWane/ScriptsDache/main/%E6%9E%81%E9%80%9FV2.0.lua"))()
 
 elseif game.PlaceId == 155615604 then
 	
