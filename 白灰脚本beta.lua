@@ -54,7 +54,7 @@ elseif game.PlaceId == 3623096087 then --力量传奇
 
 	
 else --白灰脚本
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoYunCN/Xiao-Yun-UWU/main/%E7%99%BD%E7%81%B0%E8%84%9A%E6%9C%AC.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CloudX-ScriptsWane/ScriptsDache/main/114514.lua"))()
     
 end
 
