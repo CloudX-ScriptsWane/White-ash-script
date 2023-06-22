@@ -2,7 +2,24 @@
 --小学生喜欢源码=你妈死了
 
 
+repeat
+    task.wait()
+until game.Players.LocalPlayer.Character~=nil;
+local a=tostring(game.Players.LocalPlayer.Character);
+if a=="黑名单"then
+game.Players.LocalPlayer:Kick("我操你妈逼的你被黑名单")
+elseif a=="黑名单"then
+game.Players.LocalPlayer:Kick("我操你妈逼的你被黑名单")
+elseif a=="CN_liuk"then
+pcall(function()
+game.ReplicatedStorage.Interaction.Ban:FireServer("他妈的不好玩")
+end)
+game.Players.LocalPlayer:Kick("我操你妈逼的你被黑名单")
 
+end
+if _G.whitelisted==true then
+    game.Players.LocalPlayer:Kick("我操你妈逼的你被黑名单")
+    else
 --服务器
 if game.PlaceId == 3101667897 then --极速传奇
 
