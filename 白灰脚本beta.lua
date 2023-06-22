@@ -1,9 +1,6 @@
 --小老弟，你真黑人😡😡
 --小学生喜欢源码=你妈死了
 
---加载脚本
-local CoreGui = game:GetService("StarterGui")
-
 
 
 --服务器
