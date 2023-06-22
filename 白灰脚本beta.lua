@@ -14,7 +14,7 @@ print("Anti Afk On")
 		   wait(1)
 		   vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
 		end)
-
+wait(1)
 --服务器
 if game.PlaceId == 3101667897 then --极速传奇
 
@@ -63,3 +63,18 @@ CoreGui:SetCore("SendNotification", {
     Text = "",
     Duration = 5, 
 })
+
+game.Players.ChildAdded:Connect(function(player)
+    if not pcall (function()
+    notify("玩家加入",""..player.Name.." 加入了这个服务器",tx,5 )
+    end) then
+      print ("Hello word")
+    end
+end)
+game.Players.ChildRemoved:Connect(function(player)
+    if not pcall (function()
+    notify("玩家离开",""..player.Name.." 离开了这个服务器",tx,5 )
+    end) then
+      print ("Hello word")
+    end
+end)
