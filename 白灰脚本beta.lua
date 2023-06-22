@@ -4,26 +4,7 @@
 --加载脚本
 local CoreGui = game:GetService("StarterGui")
 
-local tx="https://www.roblox.com/headshot-thumbnail/image?userId=".. game.Players.LocalPlayer.UserId .."&width=420&height=420&format=png"
-local function notify(title,text,icon,time)
-	game.StarterGui:SetCore("SendNotification", {
-		Title = title;
-		Text = text;
-		Icon = icon;
-		Duration = time
-	})
-end
-local function AntiAFK()
-    game:GetService('Players').LocalPlayer.Idled:Connect(function()
-        notify('反挂机', '反挂机已生效',nil, 4)
-        game:GetService('VirtualUser'):Button2Down(Vector2.new(0, 0), game:GetService('Workspace').CurrentCamera.CFrame);
-        wait(.325)
-        game:GetService('VirtualUser'):Button2Up(Vector2.new(0, 0), game:GetService('Workspace').CurrentCamera.CFrame);
-    end);
-end;
-AntiAFK();
-notify("云", "成功注入等待加载",nil,10)
-notify('反挂机', '反挂机已开启',nil, 4)
+
 
 --服务器
 if game.PlaceId == 3101667897 then --极速传奇
@@ -57,20 +38,3 @@ else --白灰脚本
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CloudX-ScriptsWane/ScriptsDache/main/114514.lua"))()
     
 end
-
-notify("云", "欢迎"..game.Players.LocalPlayer.Name.." 使用云",tx,10)
-game.Players.ChildAdded:Connect(function(player)
-    if not pcall (function()
-    notify("玩家加入",""..player.Name.." 加入了这个服务器",tx,5 )
-    end) then
-      print ("Hello word")
-    end
-end)
-game.Players.ChildRemoved:Connect(function(player)
-    if not pcall (function()
-    notify("玩家离开",""..player.Name.." 离开了这个服务器",tx,5 )
-    end) then
-      print ("Hello word")
-    end
-end)
-notify('注意~', '作者小云',nil, 6)
