@@ -1,6 +1,19 @@
 --小老弟，你真黑人😡😡
 --小学生喜欢源码=你妈死了
+local CoreGui = game:GetService("StarterGui")
 
+CoreGui:SetCore("SendNotification", {
+    Title = "云",
+    Text = "正在加载（反挂机已开启）",
+    Duration = 10, 
+})
+print("Anti Afk On")
+		local vu = game:GetService("VirtualUser")
+		game:GetService("Players").LocalPlayer.Idled:connect(function()
+		   vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+		   wait(1)
+		   vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+		end)
 
 repeat
     task.wait()
@@ -56,3 +69,15 @@ else --白灰脚本
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CloudX-ScriptsWane/ScriptsDache/main/114514.lua"))()
     
 end
+
+CoreGui:SetCore("SendNotification", {
+    Title = "云脚本",
+    Text = "欢迎来到云脚本！",
+    Duration = 3, 
+})
+
+CoreGui:SetCore("SendNotification", {
+    Title = "作者 小云~",
+    Text = "",
+    Duration = 5, 
+})
