@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoYunCN/LOL/main/%E4%BA%91%E8%84%9A%E6%9C%ACCloud%20script.lua", true))()
+loadstring(game:HttpGet("https://github.com/CloudX-ScriptsWane/White-ash-script/raw/main/qwq", true))()
