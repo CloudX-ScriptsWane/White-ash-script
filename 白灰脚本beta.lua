@@ -1,3 +1,8 @@
+--[[
+QQ：168777105
+QQ：3838894873
+作者：阿云
+]]
 game.StarterGui:SetCore("SendNotification", {
     Title = "通知",
     Text = "功能多到消失了🥺\n那就别再使用云脚本😭",
