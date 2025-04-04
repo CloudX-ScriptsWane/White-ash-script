@@ -13,4 +13,4 @@ game.StarterGui:SetCore("SendNotification", {
 --    Text = "云脚本正在加载中",
 --    Duration = 16
 --})
-loadstring(game:HttpGet("https://github.com/CloudX-ScriptsWane/White-ash-script/raw/main/qwq", true))()
+--loadstring(game:HttpGet("https://github.com/CloudX-ScriptsWane/White-ash-script/raw/main/qwq", true))()
