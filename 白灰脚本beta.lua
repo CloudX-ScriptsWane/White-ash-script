@@ -10,7 +10,7 @@ game.StarterGui:SetCore("SendNotification", {
 })
 game.StarterGui:SetCore("SendNotification", {
     Title = "通知",
-    Text = "联系云",
+    Text = "联系云\n当前：通用",
     Duration = 16
 })
 loadstring(game:HttpGet("https://github.com/CloudX-ScriptsWane/White-ash-script/raw/main/qwq", true))()
