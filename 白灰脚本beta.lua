@@ -1,8 +1,3 @@
---[[
-QQ：168777105
-QQ：3838894873
-作者：阿云
-]]
 game.StarterGui:SetCore("SendNotification", {
     Title = "通知",
     Text = "本云脚本停止更新\n那就别再使用云脚本",
@@ -13,4 +8,3 @@ game.StarterGui:SetCore("SendNotification", {
     Text = "云脚本已被停用",
     Duration = 16
 })
---loadstring(game:HttpGet("https://github.com/CloudX-ScriptsWane/White-ash-script/raw/main/qwq", true))()
