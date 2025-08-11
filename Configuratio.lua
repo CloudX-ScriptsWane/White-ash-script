@@ -1,1 +1,4 @@
-hello
+return {
+    UseBeta = true,
+    EnableExtra = false,
+}
