@@ -1,4 +1,4 @@
 return {
-    UseBeta = true,
-    EnableExtra = true,
+    UseBeta = false,
+    EnableExtra = false,
 }
